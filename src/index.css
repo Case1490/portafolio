@@ -166,11 +166,18 @@ body{
   padding: 70px;
 }
 
+@media (max-width: 732px) {
+  .skills-section{
+    width: 100%;
+  }
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columnas */
   gap: 20px; /* Espacio entre las tarjetas */
 }
+
 
 .skill {
   color: white;
@@ -344,7 +351,6 @@ body{
 
 /* EXPERIENCE SECTION */
 .cardExperience {
-  flex: 0 0 40%;
   height: 240px;
   display: flex;
   justify-content: center;
@@ -395,6 +401,12 @@ body{
   transition: opacity 300ms;
   animation: rotation_9018 3000ms infinite linear;
   animation-play-state: paused;
+}
+
+@media (max-width: 500px) {
+  .contentExperience h1{
+    font-size: 1.7rem;
+  }
 }
 
 .cardExperience:hover::before {

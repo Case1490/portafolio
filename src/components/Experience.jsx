@@ -33,11 +33,11 @@ const Experience = () => {
   return (
     <div className="w-[80%] m-auto" id="experiencia">
       <div className="">
-        <h1 className="text-center text-5xl font-bold text-YellowMain animationLeft">
+        <h1 className="text-center text-4xl sm:text-5xl font-bold text-YellowMain animationLeft">
           Mi Experiencia
         </h1>
 
-        <div className="mt-10 flex flex-wrap gap-8 justify-center">
+        <div className="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center">
           {experienceData.map((experience, index) => (
             <CardExperience
               key={index}

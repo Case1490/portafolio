@@ -57,7 +57,7 @@ const Services = () => {
           Mis Servicios
         </h1>
 
-        <div className="mt-20 grid grid-cols-3 place-items-center gap-4 animationOpacity">
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 animationOpacity">
           {serviceData.map((service, index) => (
             <Service
               key={index}

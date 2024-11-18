@@ -12,6 +12,7 @@ const ComputerIcon = () => {
       width="28"
       height="28"
       strokeWidth="2"
+      className="hidden sm:block"
     >
       <path d="M3 4a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1v-12z"></path>
       <path d="M3 13h18"></path>

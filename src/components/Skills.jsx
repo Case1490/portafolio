@@ -57,7 +57,7 @@ const SkillsSection = () => {
 
   return (
     <div className="skills-section" id="habilidades">
-      <h1 className="text-center text-5xl text-YellowMain font-bold my-4 animationLeft">
+      <h1 className="text-center text-3xl md:text-5xl text-YellowMain font-bold my-4 animationLeft">
         Mis Habilidades
       </h1>
 

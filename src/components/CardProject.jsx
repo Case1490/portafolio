@@ -2,9 +2,9 @@
 
 const CardProject = ({title, image, icons}) => {
   return (
-    <div className="bg-blue-900 p-4 rounded-lg text-white flex flex-col justify-between shadow-2xl transition-all delay-100 ease-in hover:scale-105">
+    <div className="bg-blue-900 p-4 rounded-lg text-white flex flex-col justify-between shadow-2xl transition-all delay-100 ease-in hover:scale-105 w-[330px] sm:w-[400px] md:w-[350px]">
       <div>
-        <img src={image} alt="icon" className="h-[160px] object-cover" />
+        <img src={image} alt="icon" className="h-[160px] object-cover m-auto" />
       </div>
 
       <div className="flex items-center justify-between mt-4">

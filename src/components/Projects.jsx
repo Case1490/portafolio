@@ -59,11 +59,11 @@ const Projects = () => {
   return (
     <div className="w-[80%] m-auto pt-[90px] pb-8 min-h-screen" id="portafolio">
       <div>
-        <h1 className="text-center font-bold text-5xl text-YellowMain animationLeft">
+        <h1 className="text-center font-bold text-3xl sm:text-5xl text-YellowMain animationLeft">
           Mis Proyectos Destacados
         </h1>
 
-        <div className="mt-10 grid gap-4 grid-cols-3 place-items-center animationOpacity">
+        <div className="mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center animationOpacity">
           {projectData.map((project, index) => (
             <CardProject
               key={index}
