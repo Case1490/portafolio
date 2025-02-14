@@ -97,6 +97,65 @@ body{
   }
 }
 
+/* From Uiverse.io by mrhyddenn */ 
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #000000;
+  border-radius: 25px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shadow__btn {
+  background: var(--YellowMain);
+  box-shadow: 0 0 25px var(--YellowMain);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px var(--YellowMain),
+              0 0 25px var(--YellowMain),
+              0 0 50px var(--YellowMain),
+              0 0 100px var(--YellowMain);
+}
+
+.shadow__btn_cv {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #000000;
+  border-radius: 25px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shadow__btn_cv {
+  background: white;
+  box-shadow: 0 0 25px white;
+}
+
+.shadow__btn_cv:hover {
+  box-shadow: 0 0 5px white,
+              0 0 25px white,
+              0 0 50px white,
+              0 0 100px white;
+}
+
 /* CONTENIDO SOBRE MI */
 
 .animationRight{

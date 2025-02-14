@@ -65,7 +65,7 @@ const Navbar = () => {
           className="text-white md:hidden focus:outline-none"
           onClick={toggleMenu}
         >
-          {isMenuOpen ? <CrossIcon/> : <MenuIcon/>}
+          {isMenuOpen ? <CrossIcon /> : <MenuIcon />}
         </button>
 
         {/* Menú */}
@@ -74,10 +74,10 @@ const Navbar = () => {
             isMenuOpen ? "max-h-screen py-8" : "max-h-0 overflow-hidden"
           } md:max-h-full md:flex md:space-x-4 md:items-center`}
         >
-          <ul className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-4 text-white">
+          <ul className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-10 text-white">
             {[
               "inicio",
-              "acerca",
+              "acerca de",
               "servicios",
               "habilidades",
               "experiencia",

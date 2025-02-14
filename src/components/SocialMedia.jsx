@@ -1,10 +1,11 @@
-
 const SocialMedia = () => {
   return (
     <ul className="example-2">
       <li className="icon-content">
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/renzo-ramos-586846270/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="LinkedIn"
           data-social="linkedin"
         >
@@ -28,7 +29,9 @@ const SocialMedia = () => {
       </li>
       <li className="icon-content">
         <a
-          href="https://www.github.com/"
+          href="https://github.com/Case1490"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="GitHub"
           data-social="github"
         >
@@ -52,7 +55,9 @@ const SocialMedia = () => {
       </li>
       <li className="icon-content">
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/renzoramos145/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Instagram"
           data-social="instagram"
         >
@@ -76,7 +81,9 @@ const SocialMedia = () => {
       </li>
       <li className="icon-content">
         <a
-          href="https://youtube.com/"
+          href="https://www.facebook.com/renzo.ramosatuncar.5/"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Facebook"
           data-social="facebook"
         >
@@ -95,6 +102,6 @@ const SocialMedia = () => {
       </li>
     </ul>
   );
-}
+};
 
-export default SocialMedia
+export default SocialMedia;

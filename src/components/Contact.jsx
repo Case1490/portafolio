@@ -1,6 +1,5 @@
 import SocialMedia from "./SocialMedia";
 
-
 const Contact = () => {
   const currentYear = new Date().getFullYear(); // Obtiene el año actual
 
@@ -16,7 +15,14 @@ const Contact = () => {
             proyecto algo extraordinario.
           </p>
         </div>
-        <button className="btnContact">Contáctame</button>
+        <a
+          href="https://wa.me/51977139843"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btnContact"
+        >
+          Contáctame
+        </a>
       </div>
 
       <div className="w-[80%] m-auto flex-col md:flex-row space-y-4 md:space-y-0 flex items-center justify-between pb-2 pt-8 md:pt-0">
@@ -30,6 +36,6 @@ const Contact = () => {
       <hr className=" w-[80%] m-auto" />
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;

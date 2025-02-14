@@ -1,58 +1,80 @@
 import CardProject from "./CardProject";
-import JevicTecnology from '../assets/jevic.png';
+import JevicTecnology from "../assets/jevic.png";
 import Futechperu from "../assets/futechweb.png";
-import Prinfer from '../assets/prinfer.png';
-import Tengolaidea from '../assets/tengolaidea.png';
-import Comideli from '../assets/comideli.png';
-import PaisData from '../assets/api_pais.png';
+import Prinfer from "../assets/prinfer.png";
+import Tengolaidea from "../assets/tengolaidea.png";
+import DevTree from "../assets/devtree.png";
+import Pokedex from "../assets/pokedex.png";
+import Webberyl from "../assets/webberyl.jpg";
+import Comideli from "../assets/comideli.png";
+import PaisData from "../assets/api_pais.png";
 
 // IMPORTANDO ICONOS
 import HTMLIcon from "../icons/HTMLIcon";
 import TailwindIcon from "../icons/TailwindIcon";
-import VueIcon from "../icons/VueIcon";
+import NodeIcon from "../icons/NodeIcon";
+import BootstrapIcon from "../icons/BootstrapIcon";
 import FirebaseIcon from "../icons/FirebaseIcon";
 import CSSIcon from "../icons/CSSIcon";
 import ReactIcon from "../icons/ReactIcon";
-
+import MongoDBIcon from "../icons/MongoDBIcon";
 
 const Projects = () => {
   // Array de proyectos directamente en el componente
   const projectData = [
     {
       title: "JevicTecnology SAC",
-      url: "https://example.com/proyecto1",
+      url: "https://jevictecnologysa.netlify.app/",
       image: JevicTecnology,
       icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
     },
     {
       title: "Futechperu",
-      url: "https://example.com/proyecto2",
+      url: "https://futechperu.com/",
       image: Futechperu,
       icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
     },
     {
       title: "GrupoPrinfer",
-      url: "https://example.com/proyecto3",
+      url: "https://amazing-frangipane-853ae3.netlify.app/",
       image: Prinfer,
       icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
     },
     {
       title: "Tengolaidea",
-      url: "https://example.com/proyecto4",
+      url: "https://tengolaidea.com/",
       image: Tengolaidea,
       icons: [HTMLIcon, TailwindIcon, CSSIcon, ReactIcon],
     },
     {
+      title: "DevTree",
+      url: "https://renzoramos-devtree.netlify.app/",
+      image: DevTree,
+      icons: [NodeIcon, TailwindIcon, ReactIcon, MongoDBIcon],
+    },
+    {
+      title: "Webberyl",
+      url: "https://webberyl.netlify.app/",
+      image: Webberyl,
+      icons: [HTMLIcon, TailwindIcon, ReactIcon],
+    },
+    {
+      title: "Pokedéx",
+      url: "https://case1490.github.io/pokedex/",
+      image: Pokedex,
+      icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
+    },
+    {
       title: "Comideli",
-      url: "https://example.com/proyecto5",
+      url: "https://comideli.netlify.app/",
       image: Comideli,
-      icons: [HTMLIcon, TailwindIcon, ReactIcon, VueIcon],
+      icons: [FirebaseIcon, TailwindIcon, ReactIcon, BootstrapIcon],
     },
     {
       title: "Paíes Data",
-      url: "https://example.com/proyecto6",
+      url: "https://case1490.github.io/API-pais/",
       image: PaisData,
-      icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
+      icons: [MongoDBIcon, TailwindIcon, FirebaseIcon, ReactIcon],
     },
   ];
 

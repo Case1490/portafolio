@@ -1,5 +1,5 @@
-import Iam from '../assets/persona.png';
-import ComputerIcon from '../icons/ComputerIcon';
+import Iam from "../assets/persona.png";
+import ComputerIcon from "../icons/ComputerIcon";
 
 const MainPage = () => {
   return (
@@ -19,14 +19,17 @@ const MainPage = () => {
 
           <div className=" flex gap-x-4 text-black justify-center sm:justify-start">
             <a
-              href="#"
-              className="bg-YellowMain flex items-center justify-center p-2 sm:p-4 rounded-full text-lg sm:text-xl hover:bg-yellow-500"
+              href="https://wa.me/51977139843"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shadow__btn"
             >
-              Saber más
+              Contáctame
             </a>
             <a
-              href="#"
-              className="bg-white flex items-center justify-center p-2 sm:py-4 sm:px-8 rounded-full text-lg sm:text-xl hover:bg-gray-300"
+              className="shadow__btn_cv"
+              href="/CV-2025.pdf"
+              download="CV-2025.pdf"
             >
               Ver CV
             </a>
@@ -39,6 +42,6 @@ const MainPage = () => {
       </div>
     </div>
   );
-}
+};
 
-export default MainPage
+export default MainPage;
