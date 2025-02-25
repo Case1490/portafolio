@@ -24,7 +24,7 @@ const Projects = () => {
   const projectData = [
     {
       title: "JevicTecnology SAC",
-      url: "https://jevictecnologysa.netlify.app/",
+      url: "https://jevictecnology.netlify.app/",
       image: JevicTecnology,
       icons: [HTMLIcon, TailwindIcon, FirebaseIcon, ReactIcon],
     },
@@ -85,7 +85,7 @@ const Projects = () => {
           Mis Proyectos Destacados
         </h1>
 
-        <div className="mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center animationOpacity">
+        <div className="mt-10 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
           {projectData.map((project, index) => (
             <CardProject
               key={index}

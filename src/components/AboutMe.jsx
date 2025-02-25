@@ -1,12 +1,11 @@
 import Aboutme from "../assets/sobremi.png";
 import TailwindIcon from "../icons/TailwindIcon";
 import EmailIcon from "../icons/EmailIcon";
-import HTMLIcon from "../icons/HTMLIcon";
 import JavaScriptIcon from "../icons/JavaScriptIcon";
 import LocationIcon from "../icons/LocationIcon";
 import PhoneIcon from "../icons/PhoneIcon";
 import ReactIcon from "../icons/ReactIcon";
-import VueIcon from "../icons/VueIcon";
+import MysqlIcon from "../icons/MysqlIcon";
 import NodeIcon from "../icons/NodeIcon";
 import FirebaseIcon from "../icons/FirebaseIcon";
 import BootstrapIcon from "../icons/BootstrapIcon";
@@ -86,6 +85,10 @@ const AboutMe = () => {
               <div className="flex items-center gap-x-1">
                 <FirebaseIcon />
                 <p>Firebase</p>
+              </div>
+              <div className="flex items-center gap-x-1">
+                <MysqlIcon />
+                <p>MySQL</p>
               </div>
               <div className="flex items-center gap-x-1">
                 <BootstrapIcon />

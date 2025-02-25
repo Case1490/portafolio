@@ -53,6 +53,8 @@ const SkillsSection = () => {
     { skill: "Figma", percentage: 70 },
     { skill: "Bootstrap", percentage: 80 },
     { skill: "GitHub", percentage: 95 },
+    { skill: "Express", percentage: 85 },
+    { skill: "Mysql", percentage: 79 },
   ];
 
   return (
